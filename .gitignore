@@ -1,0 +1,9 @@
+# Ignore OS X temp files
+.DS_Store
+
+# Ignore swap files
+*~
+*.swp
+
+# Ignore all backup vim files
+backup/*
