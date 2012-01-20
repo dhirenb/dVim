@@ -11,7 +11,7 @@ filetype plugin indent on           " load file type plugins + indentation
 
 "" Whitespace
 set nowrap                          " don't wrap lines
-set tabstop=4 shiftwidth=4          " a tab is four? spaces
+" set tabstop=4 shiftwidth=4          " a tab is four? spaces
 set expandtab                       " use spaces, not tabs (optional)
 set backspace=indent,eol,start      " backspace through everything in insert mode
 
@@ -22,6 +22,7 @@ set ignorecase                      " searches are case insensitive...
 set smartcase                       " ... unless they contain at least one capital letter
 
 set wildmode=list:longest           " when opening files using vim, show a list of files and autocomplete to longest commong string
+set scrolloff=3                     " adds three lines of buffer context around the currently selected line when near top or bottom
 
 colorscheme molokai                 " Set molokai as the default color scheme
 
