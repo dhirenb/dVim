@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/dhirenb/Documents/Workspace/moolah'
-let g:netrw_dirhist_2='/Users/dhirenb/Documents/Workspace/moolah/app'
-let g:netrw_dirhist_3='/Users/dhirenb/Documents/Workspace/moolah/app/models'

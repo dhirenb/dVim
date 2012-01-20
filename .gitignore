@@ -7,3 +7,6 @@
 
 # Ignore all backup vim files
 backup/*
+
+# NetRwhist file created everytime
+.netrwhist

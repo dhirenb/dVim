@@ -1,5 +1,4 @@
-set nocompatible                    " choose no compatability with legacy vi. Must come first because it changes other options.
-
+source ~/.vim/vimrc/init.vim
 syntax enable
 
 set number                          " show line numbers beside every line
