@@ -16,4 +16,7 @@ Bundle 'git://git.wincent.com/command-t.git'
 
 Bundle 'git://github.com/tpope/vim-fugitive'
 
+" Supertab - insert mode completioins
+Bundle 'git://github.com/ervandew/supertab'
+
 filetype plugin indent on          " required by vundle

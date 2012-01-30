@@ -10,7 +10,7 @@ filetype plugin indent on           " load file type plugins + indentation
 
 "" Whitespace
 set nowrap                          " don't wrap lines
-" set tabstop=4 shiftwidth=4          " a tab is four? spaces
+set tabstop=2 shiftwidth=2          " a tab is four? spaces
 set expandtab                       " use spaces, not tabs (optional)
 set backspace=indent,eol,start      " backspace through everything in insert mode
 
@@ -27,4 +27,5 @@ colorscheme molokai                 " Set molokai as the default color scheme
 
 set visualbell                      " Don't beep
 
-set backupdir=~/.vim/backup         " Put all temp, backup and swap files into the .vim backup directory instead of littering dirs.
+set backupdir=~/.vim/backup//       " Put all temp, backup and swap files into the .vim backup directory instead of littering dirs.
+set directory=~/.vim/backup//       " Put all temp, backup and swap files into the .vim backup directory instead of littering dirs.
