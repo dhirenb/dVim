@@ -29,3 +29,17 @@ set visualbell                      " Don't beep
 
 set backupdir=~/.vim/backup//       " Put all temp, backup and swap files into the .vim backup directory instead of littering dirs.
 set directory=~/.vim/backup//       " Put all temp, backup and swap files into the .vim backup directory instead of littering dirs.
+
+"" Convenient commands
+
+" Remove trailing whitespace in a file.
+nnoremap <Leader>rtw :%s/\s\+$//e<CR>
+
+set colorcolumn=80
+
+au BufRead,BufNewFile *.handlebars,*.hbs set ft=handlebars " Should hopefully take care of syntax highlighting for handlebars
+
+" Golang
+set rtp+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
